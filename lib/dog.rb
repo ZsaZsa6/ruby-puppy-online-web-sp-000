@@ -16,7 +16,7 @@ class Dog
   def self.all
     @@all
   end
-
+ def 
  def self.print_all
    @@all.map do |dog_object|
       puts dog_object.name
