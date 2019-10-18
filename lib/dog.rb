@@ -1,4 +1,3 @@
-# require "byebug"
 class Dog
 
   @@all = []
