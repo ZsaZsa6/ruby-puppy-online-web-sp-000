@@ -20,6 +20,4 @@ class Dog
  def self.print_all
    puts name
    end
- end
-
 end
