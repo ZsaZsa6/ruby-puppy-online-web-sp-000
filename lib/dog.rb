@@ -16,10 +16,13 @@ class Dog
   def self.all
     @@all
   end
- def 
+ def self.clear_all
+   @@all.clear
+ end
+
  def self.print_all
    @@all.map do |dog_object|
       puts dog_object.name
     end
-end
+ end
 end
